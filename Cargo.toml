@@ -48,6 +48,7 @@ full = [
     "legal-id",
     "words-to-number",
     "sheba",
+    "is_arabic",
 ] # For now, by default we enable all features:
 
 
@@ -73,6 +74,7 @@ half-space = []
 legal-id = ["dep:thiserror"]
 words-to-number = ["dep:thiserror", "commas", "digits", "remove-ordinal-suffix"]
 sheba = ["dep:thiserror"]
+is_arabic = []
 
 [package.metadata.docs.rs]
 all-features = true
